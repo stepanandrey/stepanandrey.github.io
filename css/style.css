@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to top, #fefcea, #f1da36)
+		;
+    background-size: cover; 
+    font-family: cursive;
+   
+}
+nav{
+    text-align: right;
+    background-color:greenyellow;
+    height: 30px;
+    font-family:sans-serif;
+    padding-top: 15px;
+    }
+nav a{
+    display: inline-block;
+    font-size: 18px;
+}
+nav a:link{color: black; text-decoration: none;}
+nav a:active{text-decoration: underline;}
+nav a:visited {color: yellow; text-decoration: none; }
+main{
+    margin: 1% 10% 10%;
+    background-color: rgba(232, 176, 106, 0.64);
+    padding: 1% 5%;
+}
+img{
+    display: flex;
+    width: 100%;
+        
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 28pt;
+}
+p{
+    font-size: 13pt;
+    text-indent: 30px;
+}
+div img{
+    width: 50%;
+    margin-left: 25%;
+}
